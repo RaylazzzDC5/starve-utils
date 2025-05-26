@@ -3,8 +3,6 @@
 
     alert("YE")
 
-    window.addEventListener("load", () => {
-        const stats = new Stats();
-        alert(stats !== undefined); // Cela devrait maintenant marcher
-    });
+    const stats = new Stats();
+    alert(stats !== undefined); // Cela devrait maintenant marcher
 })();
